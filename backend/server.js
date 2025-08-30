@@ -10,13 +10,13 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 // Import routes
-import authRoutes from './routes/auth.js';
-import notesRoutes from './routes/notes.js';
-import remindersRoutes from './routes/reminders.js';
-import quizRoutes from './routes/quiz.js';
-import chatRoutes from './routes/chat.js';
-import marketplaceRoutes from './routes/marketplace.js';
-import dashboardRoutes from './routes/dashboard.js';
+import authRoutes from '../collegial-mate-main/backend/routes/auth.js';
+import notesRoutes from '../collegial-mate-main/backend/routes/notes.js';
+import remindersRoutes from '../collegial-mate-main/backend/routes/reminders.js';
+import quizRoutes from '../collegial-mate-main/backend/routes/quiz.js';
+import chatRoutes from '../collegial-mate-main/backend/routes/chat.js';
+import marketplaceRoutes from '../collegial-mate-main/backend/routes/marketplace.js';
+import dashboardRoutes from '../collegial-mate-main/backend/routes/dashboard.js';
 
 // Import middleware
 import { errorHandler } from './middleware/errorHandler.js';
